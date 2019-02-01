@@ -6,9 +6,12 @@ import SEO from '../components/seo'
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
+    <SEO title="About" />
+    <h1>About me</h1>
+    <p>
+      Gabriel Wu is currently a Ph.D. candidate at Peking University, majoring
+      in remote sensing.
+    </p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
