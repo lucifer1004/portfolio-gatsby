@@ -1,6 +1,7 @@
 {
   "name": "portfolio-gatsby",
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Gabriel Wu's portfolio (Gatsby version)",
+  "repository": "git@github.com:lucifer1004/portfolio-gatsby.git",
   "version": "0.1.0",
   "author": "Gabriel Wu <wuzihua@pku.edu.cn>",
   "dependencies": {
