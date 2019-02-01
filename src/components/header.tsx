@@ -1,9 +1,10 @@
 import {Link} from 'gatsby'
-import PropTypes from 'prop-types'
 import React from 'react'
+import {jsx} from '@emotion/core'
 
-const Header = ({siteTitle}: {siteTitle: string}) => (
+const Header = ({siteTitle = ``}) => (
   <header
+    css={theme => ({color: theme.color})}
     style={{
       background: `rebeccapurple`,
       marginBottom: `1.45rem`,
@@ -30,13 +31,5 @@ const Header = ({siteTitle}: {siteTitle: string}) => (
     </div>
   </header>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header

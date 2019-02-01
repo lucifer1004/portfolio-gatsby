@@ -6,6 +6,7 @@
   "dependencies": {
     "@emotion/core": "^10.0.6",
     "@emotion/styled": "^10.0.6",
+    "emotion-theming": "^10.0.6",
     "gatsby": "^2.0.110",
     "gatsby-image": "^2.0.29",
     "gatsby-plugin-manifest": "^2.0.17",
